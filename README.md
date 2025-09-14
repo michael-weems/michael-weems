@@ -1,6 +1,6 @@
 # Michael Weems
 
-I like to make things. [website](https://mweems.com)
+I like to make things. [website](https://mdweems.com)
 
 ## Programming
 
