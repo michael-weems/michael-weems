@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html lang="">
 
 <head>
   <meta charset="utf-8" />
-  <title></title>
+  <title>Michael Weems</title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -12,64 +12,134 @@
   <meta property="og:url" content="" />
   <meta property="og:image" content="" />
 
-  <link rel="manifest" href="site.webmanifest" />
-  <link rel="apple-touch-icon" href="icon.png" />
+  <link rel="apple-touch-icon" href="favicon.ico" />
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/preflight.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/utils.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/themes/rose-pine.css" />
+  <link rel="stylesheet" href="css/themes/catppuccin-mocha.css" />
+  <link rel="stylesheet" href="css/themes/gruvbox.css" />
 
-  <meta name="theme-color" content="#fafafa" />
+  <script src="js/theme.js" defer></script>
 </head>
 
-<body class="dark-theme oled-theme">
-  <header>
-    <h1 class="fake-logo">Logo</h1>
-    <nav>
-      <a href="./index.html"> Home </a>
-      <a href="./about.html"> About </a>
-      <a href="./kitchen-sink.html"> Kitchen Sink </a>
-    </nav>
-  </header>
+<body class="theme-rose-pine flex-col pad bg">
+  <div class="flex-row gap gutter justify-content-space-around">
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+  </div>
 
-  <main class="layout">
-    <h1> Work in progress: My personal Website! </h1>
 
-    <p>
-      Please checkout my the other pages for more info!
-    </p>
+  <main class="bg-surface gutter margin-t pad width-fit-content border-l border-b border-c-second round level-4 shadow-c-second">
+    <h1 class="h-second">Michael Weems</h1>
+    <p class="t-soft"> Finding joy in the pursuit of creation. </p>
+
+    <menu class="bg-overlay gutter margin-t pad width-100 border-l border-b border-c-second round level-1 shadow-c-second flex-row flex-wrap gap justify-content-space-around">
+        <li class="theme-gruvbox">          <small class="h-accent clickable underline nowrap" onclick="switch_theme('gruvbox')">gruvbox</small> </li>
+        <li class="theme-rose-pine">        <small class="h-accent clickable underline nowrap" onclick="switch_theme('rose-pine')">rose-pine</small> </li>
+        <li class="theme-catppuccin-mocha"> <small class="h-accent clickable underline nowrap" onclick="switch_theme('catppuccin-mocha')">catppuccin-mocha</small> </li>
+    </menu>
+
+    <div id="links" class="bg-overlay width-min round pad margin-t level-1 shadow-c-second border-b border-l border-c-second">
+        <h2 class="h-second"> Links </h2>
+
+        <ul class="flex-row gap">
+          <li> <a href="https://linkedin.com/in/michael-weems-0174a2115"> LinkedIn </a> </li>
+          <li> <a href="https://github.com/michael-weems"> GitHub </a> </li>
+          <li> <a href="https://github.com/michael-weems/michael-weems"> mweems.com source </a> </li>
+        </ul>
+    </div>
+
+    <div class="bg-overlay gutter width-fit-content round pad margin-t level-1 shadow-c-accent border-b border-l border-c-accent">
+        <h2 class="h-accent"> Software Dev </h2>
+
+        <p>
+          I've been doing full-stack web-dev for most of my career. Started in Java with Jersey Servlets, MySQL, and GlassFish. Moved to Node.js and Angular for a long while. Eventually ported to Go and HTMX a while back. I've done most things unrelated to actually connecting to the real internet, as my apps deploy on intranets. Stuff like: creating custom CSS design systems, CRUD forms, windows installers, CI / CD, creating build systems, database architecture, some data-processing w/ concurrency, team management and mentorship, etc...
+        </p>
+
+        <p>
+          Lately I've been excited to dig into game development. The chasm of technical concepts to explore is severely deep and broad - but I'm eager to pull out my spelunking gear and do the exploration. The fact that I can combine my music and programming passions to create something lights a fire in my soul to get at it. I'd like to also learn the art and game-design side. If I end up with a career in game-dev or something else or stay in my current career trajectory, either way I'll most-likely be building my projects at home.
+        </p>
+
+        <h3> Tools </h3>
+
+        <p>
+        My preferred dev setup includes NeoVim, really any Linux distro, Hyprland, and Tmux. I use the MoErgo Glove80 keyboard.
+        </p>
+    </div>
+
+    <div class="bg-overlay gutter width-fit-content round pad margin-t level-1 shadow-c-tertia border-b border-l border-c-tertia">
+        <h2 class="h-tertia"> Music </h2>
+
+        <p>
+        I grew up singing and playing the drums, and in the last several years I've had the absolute joy of playing with several other local musicians. We primarily do improvised jam-sessions where we'll play anything from prog jazz to metal to blues to pirate shanties. My next route is to get into audio engineering / production to mix and master tracks we record.
+
+        My latest obsession is guitar pedals. I love hooking them up to a variety of instruments and getting completely different sound profiles. Like hooking up reverb to my drums to get an echo-filled beat, or a delay pedal to a synth.
+        </p>
+    </div>
+
+    <div class="bg-overlay gutter width-fit-content round pad margin-t level-1 shadow-c-quatro border-b border-l border-c-quatro">
+        <h2 class="h-quatro"> Improv </h2>
+
+        <p>
+        I'm an improviser! I started taking classes in 2023 after my buddy's now-fiance had her graduation show, and I thought "that looks cool, I wanna try!" After a year of classes, I graduated the program. It's really a treat to see other people who've done improv for over a decade innovating in the art-form and making shows really fun to watch. I also have the privilege of occasionally playing with some very talented and fun improvisers. If you're ever in STL, checkout the Improv Shop!
+        </p>
+    </div>
+
+    <div class="bg-overlay gutter width-fit-content round pad margin-t level-1 shadow-c-cinco border-b border-l border-c-cinco">
+        <h2 class="h-cinco"> Odds and Ends </h2>
+
+        <p>
+        Some of my other interests include: board games, cooking, anime, cinema, reading, some video games, learning languages, and trying to learn art!
+        </p>
+    </div>
 
   </main>
 
-  <footer>
-    <h3 class="fake-logo">Fake Logo</h3>
-    <nav>
-      <a href="./index.html"> Home </a>
-      <a href="./about.html"> About </a>
-      <a href="./kitchen-sink.html"> Kitchen Sink </a>
-    </nav>
-    <p>&copy; 2021 Michael's Course Work</p>
-  </footer>
+  <div class="margin-t flex-row gap gutter justify-content-space-around">
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+    <div class="bg-surface round border-c-second border-l border-b pad level-4 shadow-c-second not-on-phones not-on-tablets"></div>
+  </div>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments);
-    };
-    ga.q = [];
-    ga.l = +new Date();
-    ga("create", "UA-XXXXX-Y", "auto");
-    ga("set", "anonymizeIp", true);
-    ga("set", "transport", "beacon");
-    ga("send", "pageview");
-
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

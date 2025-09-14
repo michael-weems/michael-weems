@@ -1,0 +1,43 @@
+:root {
+
+  /* Define Colors intentions, define them as params to the hsl function */
+  /* NOTE: all red unless overridden */
+  --c-accent:      0, 100, 50;
+  --c-second:      0, 100, 50;
+  --c-tertia:      0, 100, 50;
+  --c-quatro:      0, 100, 50;
+  --c-cinco:       0, 100, 50;
+  --c-base:        0, 100, 50;
+  --c-surface:     0, 100, 50;
+  --c-overlay:     0, 100, 50;
+  --c-text-soft:   0, 100, 50;
+  --c-text:        0, 100, 50;
+  --c-text-header: 0, 100, 50;
+  --c-line:        0, 100, 50;
+  --c-shadow:      0, 100, 50; 
+
+  /* Styles */
+  --line-style: solid;
+  --line-width: 2px;
+  --line-width-thin: 1px;
+  --line-width-thick: 4px;
+
+  --border-radius: 7px;
+
+  /* Type */
+  --heading-font: "Space Mono", monospace;
+  --body-font: "Work Sans", sans-serif;
+  --font-size:   24px;
+  --gap:         16px;
+  --gap-less:    calc(var(--gap) * 0.8);
+  --gap-lesser:  calc(var(--gap-less) * 0.8);
+  --gap-least:   calc(var(--gap-lesser) * 0.8);
+  --h1: 3.052em;
+  --h2: 2.441em;
+  --h3: 1.953em;
+  --h4: 1.563em;
+  --h5: 1.25em;
+  --small-text: 0.8em;
+
+  --max-width: 40em;
+}

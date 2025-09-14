@@ -1,0 +1,34 @@
+/* https://rosepinetheme.com/palette/ingredients/ */
+.theme-rose-pine {
+  /* NOTE: redefine hsl rose-pine colors here  */
+  --ct-base:           249deg, 22%, 12%;
+  --ct-surface:        247deg, 23%, 15%;
+  --ct-overlay:        248deg, 25%, 18%;
+  --ct-muted:          249deg, 12%, 47%;
+  --ct-subtle:         248deg, 15%, 61%;
+  --ct-text:           245deg, 50%, 91%;
+  --ct-love:           343deg, 76%, 68%;
+  --ct-gold:           35deg, 88%, 72%;
+  --ct-rose:           2deg, 55%, 83%;
+  --ct-pine:           197deg, 49%, 38%;
+  --ct-foam:           189deg, 43%, 73%;
+  --ct-iris:           267deg, 57%, 78%;
+  --ct-highlight-low:  244deg, 18%, 15%;
+  --ct-highlight-med:  249deg, 15%, 28%;
+  --ct-highlight-high: 248deg, 13%, 36%;
+
+  /* NOTE: override my system's colors here */
+  --c-accent:      var(--ct-rose);
+  --c-second:      var(--ct-pine);
+  --c-tertia:      var(--ct-iris);
+  --c-quatro:      var(--ct-love);
+  --c-cinco:       var(--ct-foam);
+  --c-base:        var(--ct-base);
+  --c-surface:     var(--ct-surface);
+  --c-overlay:     var(--ct-overlay);
+  --c-text:        var(--ct-text);
+  --c-text-soft:   var(--ct-subtle);
+  --c-text-header: var(--ct-muted);
+  --c-line:        var(--c-accent);
+  --c-shadow:      var(--c-accent); 
+}

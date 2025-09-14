@@ -1,0 +1,46 @@
+/* https://catppuccin.com/palette/ */
+.theme-catppuccin-mocha {
+  /* NOTE: redefine hsl catppuccin-mocha colors here  */
+
+  --ct-rosewater:      10deg,  56%, 91%;
+  --ct-flamingo:       0deg,   59%, 88%;
+  --ct-pink:           316deg, 72%, 86%;
+  --ct-muave:          267deg, 84%, 81%;
+  --ct-red:            343deg, 81%, 75%;
+  --ct-maroon:         350deg, 65%, 77%;
+  --ct-peach:          23deg,  92%, 75%;
+  --ct-yellow:         41deg,  86%, 83%;
+  --ct-green:          115deg, 54%, 76%;
+  --ct-teal:           170deg, 57%, 73%;
+  --ct-sky:            189deg, 71%, 73%;
+  --ct-sapphire:       199deg, 76%, 69%;
+  --ct-blue:           217deg, 92%, 76%;
+  --ct-lavender:       232deg, 97%, 85%;
+  --ct-text:           226deg, 64%, 88%;
+  --ct-subtext-1:      227deg, 35%, 80%;
+  --ct-subtext-0:      228deg, 24%, 72%;
+  --ct-overlay-2:      228deg, 17%, 64%;
+  --ct-overlay-1:      230deg, 13%, 55%;
+  --ct-overlay-0:      231deg, 11%, 47%;
+  --ct-surface-2:      233deg, 12%, 39%;
+  --ct-surface-1:      234deg, 13%, 31%;
+  --ct-surface-0:      237deg, 16%, 23%;
+  --ct-base:           240deg, 21%, 15%;
+  --ct-mantle:         240deg, 21%, 12%;
+  --ct-crust:          240deg, 23%, 9%;
+
+  /* NOTE: override my system's colors here */
+  --c-accent:      var(--ct-lavender);
+  --c-second:      var(--ct-flamingo);
+  --c-tertia:      var(--ct-muave);
+  --c-quatro:      var(--ct-sapphire);
+  --c-cinco:       var(--ct-green);
+  --c-base:        var(--ct-crust);
+  --c-surface:     var(--ct-mantle);
+  --c-overlay:     var(--ct-base);
+  --c-text:        var(--ct-text);
+  --c-text-soft:   var(--ct-subtext-0);
+  --c-text-header: var(--ct-subtext-1);
+  --c-line:        var(--c-lavender);
+  --c-shadow:      var(--c-lavender); 
+}

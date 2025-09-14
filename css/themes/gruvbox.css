@@ -1,0 +1,50 @@
+/* https://github.com/morhetz/gruvbox */
+.theme-gruvbox {
+  /* TODO: I got lazy and didn't port all the hex values to hsl */
+  --ct-bg3:      010deg,  56%, 91%;
+  --ct-bg4:      010deg,  56%, 91%;
+  --ct-fg0:      010deg,  56%, 91%;
+  --ct-fg3:      010deg,  56%, 91%;
+  --ct-red0:     010deg,  56%, 91%;
+  --ct-red1:     010deg,  56%, 91%;
+  --ct-green1:   010deg,  56%, 91%;
+  --ct-yellow1:  010deg,  56%, 91%;
+  --ct-blue1:    010deg,  56%, 91%;
+  --ct-purple0:  010deg,  56%, 91%;
+  --ct-purple1:  010deg,  56%, 91%;
+  --ct-aqua0:    010deg,  56%, 91%;
+  --ct-aqua1:    010deg,  56%, 91%;
+  --ct-gray0:    010deg,  56%, 91%;
+  --ct-gray1:    010deg,  56%, 91%;
+  --ct-gray2:    010deg,  56%, 91%;
+
+  /* NOTE: redefine hsl gruvbox colors here  */
+  --ct-bg0_h:    195deg,  6.45%, 12.16%;
+  --ct-bg0_s:    020deg,  3.09%, 19.02%;
+  --ct-bg0:      000deg,  0%, 15.69%;
+  --ct-bg1:      020deg,  5.26%, 22.35%;
+  --ct-bg2:      022deg,  7.4%, 29.22%;
+  --ct-fg1:      043deg,  58.76%, 80.98%;
+  --ct-fg2:      040deg,  38.24%, 73.33%;
+  --ct-fg4:      35deg,   17.14%, 58.82%;
+  --ct-green0:   059deg,  70.79%, 34.9%;
+  --ct-yellow0:  039deg,  73.39%, 48.63%;
+  --ct-blue0:    183deg,  32.68%, 40.2%;
+  --ct-orange0:  024deg,  87.72%, 44.71%;
+  --ct-orange1:  027deg,  99.13%, 54.71%;
+
+  /* NOTE: override my system's colors here */
+  --c-accent:      var(--ct-orange0);
+  --c-second:      var(--ct-orange1);
+  --c-tertia:      var(--ct-blue0);
+  --c-quatro:      var(--ct-green0);
+  --c-cinco:       var(--ct-yellow0);
+  --c-base:        var(--ct-bg0_h);
+  --c-surface:     var(--ct-bg0);
+  --c-overlay:     var(--ct-bg1);
+  --c-text:        var(--ct-fg1);
+  --c-text-soft:   var(--ct-fg4);
+  --c-text-header: var(--ct-fg2);
+  --c-line:        var(--c-bg2);
+  --c-shadow:      var(--c-bg2); 
+}
