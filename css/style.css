@@ -87,11 +87,9 @@ hr {
 }
 
 /* Media Queries for screen size changes */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   :root {
     --font-size: 16px;
-    --h1: var(--h2);
-    --max-width: 25em;
   }
 
   .grid { display: block; }
@@ -99,20 +97,27 @@ hr {
 
   .not-on-phones { display: none; }
   .gutter { margin-left: unset; margin-right: unset; }
+}
+
+@media only screen and (max-width: 900px) {
+  :root {
+    --h1: var(--h2);
+    --font-size: 20px;
+    --max-width: 20em;
+  }
+
   #links {
     width: 100%;
     min-width: unset;
     .flex-row { flex-direction: column; }
   }
   .width-fit-content { width: 100% };
+  .not-on-tablets{ display: none; }
 }
 
-/* Media Queries for screen size changes */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   :root {
-    --font-size: 20px;
-    --max-width: 25em;
+    --font-size: 24px;
+    --max-width: 35em;
   }
-
-  .not-on-tablets{ display: none; }
 }
