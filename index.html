@@ -7,6 +7,13 @@
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- NOTE: disable cache, doesn't work if the response headers override this though -->
+  <!-- NOTE: web-site is small enough that caching isn't necessary, and not caching allows me to just use the same files without "cache-busting" renames -->
+  <!-- NOTE: github pages adds a 'cache-control: max-age=600' response header that forces cache to persist for 10 minutes -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
   <meta property="og:title" content="" />
   <meta property="og:type" content="" />
   <meta property="og:url" content="" />
